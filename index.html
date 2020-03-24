@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <input id="dataInput" maxlength="18" autocomplete="off" placeholder="0." type="text">
+            <input id="resInput" maxlength="18" autocomplete="off" type="text">
+
+        </div>
+        <div class="buttons_container">
+            <table>
+                <tr>
+                    <td><button value="7"  id="owner">M</button></td>
+                    <td><button value="8"  class="operatorssss" >H</button></td>
+                    <td id="red"><button value="9" id="close" >C</button></td>
+                    <td id="red"><button id="clear">del</button></td>                    
+                </tr>
+                <tr>
+                    <td><button value="7"  class="operators"  >7</button></td>
+                    <td><button value="8"  class="operators" >8</button></td>
+                    <td><button value="9" class="operators" >9</button></td>
+                    <td id="blue"><button class="operators">/</button></td>                    
+                </tr>
+
+                <tr>
+                    <td><button  class="operators" >4</button></td>
+                    <td><button  class="operators" >5</button></td>
+                    <td><button  class="operators" >6</button></td>
+                    <td id="blue"><button class="operators">*</button></td>                    
+                </tr>
+
+                <tr>
+                    <td><button  class="operators" >1</button></td>
+                    <td><button  class="operators" >2</button></td>
+                    <td><button  class="operators" >3</button></td>
+                    <td id="blue" ><button class="operators">-</button></td>                    
+                </tr>
+
+                <tr>
+                    <td><button  class="operators" >.</button></td>
+                    <td><button  class="operators" >0</button></td>
+                    <td><button  value="1" id="result">=</button></button></td>
+                    <td id="blue"><button class="operators" >+</button></td>                    
+                </tr>
+                
+                
+            </table>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
